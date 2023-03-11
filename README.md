@@ -15,13 +15,20 @@ You will need to have the following tools in place before working on this applic
 
 ## How the app works 
 
-On App launch, app will ask for the user location access.  If user grants the access it will show the weather forecast based current user location
-If user does not grant the location access, then it will show launch page. 
-there will be a search bar where user can enter city name and once the user enters city name app will show that city weather forecast. 
+Use Case 1: Upon launching the app, the user will be prompted to grant access to their location. If the user grants access, the app will display the weather forecast based on the user's current location. If the user denies access to their location, the launch page will be displayed.
 
-Upon relaunch app will show the previously searched city name by default along with that city forecast. If user enters the wrong city name it will show the error alert. 
+Use Case 2: The launch page will feature a search bar where the user can enter the name of a city. After entering the city name, the app will display the weather forecast for that city.
 
-if user enters city outside of USA, APP will  show the alert saying " Weather data only work for US Region" 
+Use Case 3: Upon relaunching the app, the previously searched city name and its forecast will be displayed by default. If the user enters an incorrect city name, an error alert will be displayed.
+
+Use Case 4: If the user enters a city outside of the USA, the app will display an alert stating that weather data is only available for the US region.
+
+
+## Architecture( Design Pattern) 
+
+To build this application, I used MVVM Design pattern. 
+
+
 
 
 
