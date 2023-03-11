@@ -16,7 +16,7 @@ enum APIServiceError: Error {
         case .apiError(errorMessage: let errorMessage):
             return errorMessage ?? "Network Error"
         case .decodeError:
-            return "Decode Error"
+            return "Invalid City Name"
         }
     }
 }
