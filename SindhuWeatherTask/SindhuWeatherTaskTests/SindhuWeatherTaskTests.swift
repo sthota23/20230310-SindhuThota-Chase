@@ -35,7 +35,6 @@ final class SindhuWeatherTaskTests: XCTestCase {
         let coodinates = Coord(lon: 25.00, lat: 36.00)
         vc.viewModel.updateCoordinateLocation(location: coodinates)
         let sysLocation = Sys(type: 1, id: 2, country: "US", sunrise: 9, sunset: 6)
-        vc.viewModel.updateSysLocation(sysLocation: sysLocation)
         XCTAssertNotNil(self.vc.viewModel.coordinate)
         vc.viewModel.getWeatherResults { status, error in
             XCTAssertTrue(status)
