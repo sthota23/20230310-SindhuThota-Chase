@@ -39,6 +39,8 @@ Use Case 3: Upon relaunching the app, the previously searched city name and its 
 Error:
 
 
+<img src="https://user-images.githubusercontent.com/127543478/224514955-0971dbac-6252-49d1-989c-22cf40b961b0.png" width="393" height="852">
+
 
 Use Case 4: If the user enters a city outside of the USA, the app will display an alert stating that weather data is only available for the US region.
 
