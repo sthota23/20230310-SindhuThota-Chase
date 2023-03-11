@@ -39,7 +39,7 @@ Use Case 3: Upon relaunching the app, the previously searched city name and its 
 Error:
 
 
-<img src="https://user-images.githubusercontent.com/127543478/224514955-0971dbac-6252-49d1-989c-22cf40b961b0.png" width="393" height="852">
+<img src="https://user-images.githubusercontent.com/127543478/224515113-318541db-2244-4ea8-8f52-d3d06e1895d2.png" width="393" height="852">
 
 
 Use Case 4: If the user enters a city outside of the USA, the app will display an alert stating that weather data is only available for the US region.
@@ -60,4 +60,6 @@ To build this application, I used MVVM Design pattern.
     - Run the unit tests (Menu Product > Test or `⌘ + U`)
 
   Unit tests will be executed as part of the test step
+
+<img width="1440" alt="Screenshot 2023-03-11 at 4 56 35 PM" src="https://user-images.githubusercontent.com/127543478/224515100-c2a71d2e-8186-4008-a8ed-dff0bd63bf87.png">
 
