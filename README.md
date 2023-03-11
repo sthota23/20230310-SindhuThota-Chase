@@ -11,7 +11,7 @@ You will need to have the following tools in place before working on this applic
 1. Clone the repository
   - `$ git clone https://github.com/sthota23/20230310-SindhuThota-Chase.git`
   - `$ cd 20230310-SindhuThota-Chase/SindhuWeatherTask/`
-  - `$ open SindhuWeatherTask.xcodeproj 
+  - `$ open SindhuWeatherTask.xcodeproj` 
 
 ## How the app works 
 
@@ -36,7 +36,7 @@ Use Case 3: Upon relaunching the app, the previously searched city name and its 
 
 <img src="https://user-images.githubusercontent.com/127543478/224514741-3d641aac-0286-408f-9804-ac3995fcf515.png" width="393" height="852">
 
-Error:
+if Invalid city Error:
 
 
 <img src="https://user-images.githubusercontent.com/127543478/224515113-318541db-2244-4ea8-8f52-d3d06e1895d2.png" width="393" height="852">
@@ -53,8 +53,8 @@ Use Case 4: If the user enters a city outside of the USA, the app will display a
 
 To build this application, I used MVVM Design pattern. 
 
-
-2. Run the tests using Xcode
+## Tests 
+Run the tests using Xcode
     - Open SindhuWeatherTask.xcodeproj 
     - Select an iPhone 14 Prod simulator and build and run the project (Menu Product > Run or `⌘ + R`)
     - Run the unit tests (Menu Product > Test or `⌘ + U`)
